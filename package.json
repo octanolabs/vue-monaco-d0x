@@ -3,7 +3,7 @@
   "version": "0.3.1",
   "description": "MonacoEditor component for Vue.js",
   "repository": {
-    "url": "egoist/vue-monaco",
+    "url": "octanolabs/vue-monaco",
     "type": "git"
   },
   "main": "dist/vue-monaco.js",
@@ -22,7 +22,7 @@
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "monaco-editor": "^0.18.0",
+    "monaco-editor": "^0.18.1",
     "nano-assign": "^1.0.0"
   },
   "devDependencies": {
