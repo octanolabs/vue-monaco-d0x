@@ -1,8 +1,8 @@
-# vue-monaco
+# vue-monaco-d0x
 
-[![NPM version](https://img.shields.io/npm/v/vue-monaco.svg?style=flat)](https://npmjs.com/package/vue-monaco) [![NPM downloads](https://img.shields.io/npm/dm/vue-monaco.svg?style=flat)](https://npmjs.com/package/vue-monaco) [![CircleCI](https://circleci.com/gh/egoist/vue-monaco/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/vue-monaco/tree/master) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
+[![NPM version](https://img.shields.io/npm/v/vue-monaco-d0x.svg?style=flat)](https://npmjs.com/package/vue-monaco-d0x) [![NPM downloads](https://img.shields.io/npm/dm/vue-monaco-d0x.svg?style=flat)](https://npmjs.com/package/vue-monaco-d0x) [![CircleCI](https://circleci.com/gh/octanolabs/vue-monaco-d0x/tree/master.svg?style=shield)](https://circleci.com/gh/octanolabs/vue-monaco-d0x/tree/master)
 
-[Monaco Editor](https://github.com/Microsoft/monaco-editor) is the code editor that powers VS Code, now it's available as a Vue component `<MonacoEditor>` thanks to this project.
+[Monaco Editor](https://github.com/Microsoft/monaco-editor) is the code editor that powers VS Code, now it's available as a Vue component `<MonacoEditor>` thanks to this project. Note: This is a fork of [vue-monaco](https://npmjs.com/package/vue-monaco).
 
 ## Install
 
@@ -94,8 +94,8 @@ export default {
         template: `
           <monaco-editor
             style="width:800px;height:600px;border:1px solid grey"
-            v-model="code" 
-            language="javascript" 
+            v-model="code"
+            language="javascript"
             :amdRequire="amdRequire"
           />`,
         data: {
@@ -223,7 +223,7 @@ In this case, the component's `getEditor()` returns the [`IStandaloneDiffEditor`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## Author
+## vue-monaco author
 
 **vue-monaco** © [egoist](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by egoist with help from contributors ([list](https://github.com/egoist/vue-monaco/contributors)).
