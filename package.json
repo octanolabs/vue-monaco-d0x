@@ -1,9 +1,9 @@
 {
-  "name": "vue-monaco",
-  "version": "0.3.1",
+  "name": "vue-monaco-d0x",
+  "version": "0.3.2",
   "description": "MonacoEditor component for Vue.js",
   "repository": {
-    "url": "octanolabs/vue-monaco",
+    "url": "octanolabs/vue-monaco-d0x",
     "type": "git"
   },
   "main": "dist/vue-monaco.js",
