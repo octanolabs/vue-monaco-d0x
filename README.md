@@ -1,19 +1,19 @@
 # vue-monaco-d0x
 
-[![NPM version](https://img.shields.io/npm/v/vue-monaco-d0x.svg?style=flat)](https://npmjs.com/package/vue-monaco-d0x) [![NPM downloads](https://img.shields.io/npm/dm/vue-monaco-d0x.svg?style=flat)](https://npmjs.com/package/vue-monaco-d0x) [![CircleCI](https://circleci.com/gh/octanolabs/vue-monaco-d0x/tree/master.svg?style=shield)](https://circleci.com/gh/octanolabs/vue-monaco-d0x/tree/master)
+[![NPM version](https://img.shields.io/npm/v/vue-monaco-d0x.svg?style=flat)](https://npmjs.com/package/vue-monaco-d0x) [![NPM downloads](https://img.shields.io/npm/dm/vue-monaco-d0x.svg?style=flat)](https://npmjs.com/package/vue-monaco-d0x) [![CircleCI](https://circleci.com/gh/octanolabs/vue-monaco-d0x/tree/master.svg?style=svg)](https://circleci.com/gh/octanolabs/vue-monaco-d0x/tree/master)
 
 [Monaco Editor](https://github.com/Microsoft/monaco-editor) is the code editor that powers VS Code, now it's available as a Vue component `<MonacoEditor>` thanks to this project. Note: This is a fork of [vue-monaco](https://npmjs.com/package/vue-monaco).
 
 ## Install
 
 ```bash
-npm install vue-monaco
+npm install vue-monaco-d0x
 ```
 
 Or
 
 ```bash
-yarn add vue-monaco
+yarn add vue-monaco-d0x
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ Then use the component:
 </template>
 
 <script>
-import MonacoEditor from 'vue-monaco'
+import MonacoEditor from 'vue-monaco-d0x'
 
 export default {
   components: {
@@ -85,7 +85,7 @@ export default {
 
     <script src="monaco-editor/min/vs/loader.js"></script>
     <script src="https://unpkg.com/vue"></script>
-    <script src="https://unpkg.com/vue-monaco"></script>
+    <script src="https://unpkg.com/vue-monaco-d0x"></script>
     <script>
       require.config({ paths: { vs: 'monaco-editor/min/vs' } })
 
