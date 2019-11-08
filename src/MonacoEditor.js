@@ -124,11 +124,6 @@ export default {
       this.$emit('editorDidMount', this.editor)
     },
 
-    /** @deprecated */
-    getMonaco() {
-      return this.editor
-    },
-
     getEditor() {
       return this.editor
     },
